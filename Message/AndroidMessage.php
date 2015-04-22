@@ -126,7 +126,7 @@ class AndroidMessage implements MessageInterface
     public function setDeviceIdentifier($identifier)
     {
         $this->identifier = $identifier;
-        $this->allIdentifiers = $identifier;
+        $this->allIdentifiers = array($identifier);
     }
 
     /**
